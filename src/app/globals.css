@@ -1,0 +1,139 @@
+/* src/app/globals.css */
+
+@import "tailwindcss";
+@import "../../public/assets/uswds/css/index.css";
+
+:root {
+  --tsp-blue: #0071bc;
+  --tsp-dark-blue: #005691;
+  --light-gray: #f0f0f0;
+  --white: #ffffff;
+  --gray-border: #ccc;
+  --error-red: red;
+}
+
+/* Global Styles for TSP Login Page */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-gray);
+}
+
+a {
+  color: var(--tsp-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--tsp-blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: var(--tsp-dark-blue);
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Header Styles (if applicable) */
+header {
+  background-color: var(--white);
+  padding: 20px;
+  text-align: left;
+}
+
+header img {
+  max-height: 50px;
+}
+
+/* Main Content Area Styles */
+main {
+  width: 80%;
+  margin: 20px auto;
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Form Styles */
+.login-form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.login-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.login-form button {
+  margin-top: 20px;
+}
+
+/* Link Styles */
+.link-button {
+  background: none;
+  border: none;
+  color: var(--tsp-blue);
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: var(--tsp-dark-blue);
+}
+
+/* Error Messages */
+.error-message {
+  color: var(--error-red);
+  margin-top: 10px;
+}
+
+/* Responsive Design (Example) */
+@media (max-width: 768px) {
+  main {
+    width: 95%;
+  }
+}
+
+.usa-footer-icon div {
+  border-radius: 62.5px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125px;
+  height: 125px;
+  background-position: 30% center;
+  background-repeat: no-repeat;
+  background-size: 77%;
+  background-color: #fdfdfd;
+  background-color: linear-gradient(155deg, #fdfdfd 0%, #fff 100%);
+  background-image: url("../../public/assets/tsp/img/Standard_LOGO_Blue.svg");
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2)
+}
