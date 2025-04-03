@@ -69,7 +69,7 @@ function LoginForm() {
               href={idMeUrl || ''}
               className="idme-connect-button"
               id="idme-connect-button"
-              style={{ display: 'inline-block', width: '200px', height: '60px' }}
+              style={{ display: 'inline-block', width: '200px', height: '30px' }}
               >
               <Image
                 src="/assets/idme/img/sign-in.svg"
