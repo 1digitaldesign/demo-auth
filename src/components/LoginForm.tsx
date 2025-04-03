@@ -93,8 +93,8 @@ function LoginForm() {
               <div
               style={{
                 display: 'inline-block',
-                width: '220px',
-                height: '44px',
+                width: '200px',
+                height: '30px',
                 border: '1px solid #08833D', // Reduced border size
                 borderRadius: '4px',
               }}
